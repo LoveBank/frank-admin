@@ -3,7 +3,9 @@ ruby '2.3.0'
 gem 'frank', :git => 'git://github.com/LoveBank/frank.git' #:path => '../frank'
 
 gem 'awesome_print'
+gem 'jquery-rails'
 gem 'rails', "~> 4.2.5"
+gem 'turbolinks', '~> 2.5', '>= 2.5.3'
 gem 'pg'
 gem 'newrelic_rpm'
 

@@ -56,10 +56,18 @@ GEM
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
     coderay (1.1.0)
+    coffee-rails (4.1.1)
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0, < 5.1.x)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.10.0)
     concurrent-ruby (1.0.0)
     debug_inspector (0.0.2)
     diff-lcs (1.2.5)
     erubis (2.7.0)
+    execjs (2.6.0)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
     factory_girl_rails (4.6.0)
@@ -86,6 +94,10 @@ GEM
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
     i18n (0.7.0)
+    jquery-rails (4.1.0)
+      rails-dom-testing (~> 1.0)
+      railties (>= 4.2.0)
+      thor (>= 0.14, < 2.0)
     json (1.8.3)
     launchy (2.4.3)
       addressable (~> 2.3)
@@ -186,6 +198,8 @@ GEM
       sprockets (>= 3.0.0)
     thor (0.19.1)
     thread_safe (0.3.5)
+    turbolinks (2.5.3)
+      coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     web-console (3.1.1)
@@ -206,6 +220,7 @@ DEPENDENCIES
   faker
   frank!
   guard-rspec
+  jquery-rails
   letter_opener
   newrelic_rpm
   pg
@@ -215,6 +230,7 @@ DEPENDENCIES
   rails_stdout_logging
   rspec-rails
   spring
+  turbolinks (~> 2.5, >= 2.5.3)
   web-console
 
 BUNDLED WITH
