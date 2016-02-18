@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/LoveBank/frank.git
-  revision: f91333cefb036077dc577721bdadb9217323f3b4
+  revision: a165e5b2a918119f72c795bf9bfc53a5360055aa
   specs:
     frank (0.0.3)
       rails (~> 4.2.5)
