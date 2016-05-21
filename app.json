@@ -1,0 +1,37 @@
+{
+  "name": "frank-admin",
+  "scripts": {
+  },
+  "env": {
+    "LANG": {
+      "required": true
+    },
+    "NEW_RELIC_LICENSE_KEY": "4d10ff962ac48b1fda4e7a45537136853c1041d2",
+    "NEW_RELIC_LOG": "stdout",
+    "RACK_ENV": "development",
+    "RAILS_ENV": "development",
+    "RAILS_SERVE_STATIC_FILES": "enabled",
+    "SECRET_KEY_BASE": {
+      "generator": "secret"
+    },
+    "SECRET_TOKEN": {
+      "generator": "secret"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    },
+    "worker": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
