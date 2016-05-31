@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/LoveBank/frank.git
-  revision: 0945c50b6f28989bb135d527a58b0791dd0de54e
+  revision: ac6d9114a464cf1610ee3767a387a7ae382ed6fb
   specs:
-    frank (0.0.4)
+    frank (0.0.5)
       rails (~> 4.2.5)
 
 GEM
@@ -47,7 +47,7 @@ GEM
     arel (6.0.3)
     awesome_print (1.6.1)
     builder (3.2.2)
-    byebug (9.0.4)
+    byebug (9.0.5)
     capybara (2.7.1)
       addressable
       mime-types (>= 1.16)
